@@ -1,0 +1,125 @@
+@media screen and (max-width: 1024px) and (min-width: 980px){
+
+    /* Navbar */
+    .my-nav{ position: relative; z-index:1; background:#fff; border:none; border-bottom-color: #3333332b; width: 100%;}
+    .nav-link{ color: #000!important; font-weight: 300 ;font-family: Arial, Helvetica, sans-serif;font-size: 13px;}
+    .nav-link:hover{color: #333!important;font-weight: 300 ;font-family: Arial, Helvetica, sans-serif;font-size: 13px;}
+    .nav-item:hover{border-bottom: 1px solid #333;border-radius: 10px;  }
+    .carousel-item img{
+        height: 370px;
+        min-height: 200px;
+        background: no-repeat center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #navmenu {
+        margin-left: 41%!important;
+    }
+    #slider_txt_1{ text-align: left!important; margin: 70% 2% 1% 2%!important;font-weight:300; font-family: Georgia, 'Times New Roman', Times, serif;  }
+    #slider_txt_2{ text-align: left!important;margin: 10px 2% 1% 2%!important;font-weight:300; font-family: Georgia, 'Times New Roman', Times, serif;  }
+    #slider_txt_3{ text-align: left!important; margin: 10px 2% 1% 2%!important;font-weight:300; font-family: Georgia, 'Times New Roman', Times, serif;  }
+    
+    #slider_txt_1 h2{font-size:18px;}
+    #slider_txt_1 h5{font-size:18px;}
+    #slider_txt_2 h5{font-size:18px;}
+    #slider_txt_2 h2{font-size:18px;}
+    #slider_txt_3 h2{font-size:18px;}
+    .lead{font-size:14px!important;}
+    /* Carousel content HR  */
+    
+    /* Carousel outliner Button */
+    .outlineCnt{ padding: 2%; border: 1.5px solid #fff; border-radius: 5%; margin: 2% 0 0 0 ; color: #fff; text-decoration: none;}
+    .outlineCnt:hover{ padding: 1%; background-color: #fff ; border-radius: 7%; margin: 3% 0 0 0; color: #FFA800;text-decoration: none;}
+    .right{ text-align: right;}
+    .lead{padding: 0 15% 0 0!important;}
+    /* Home Search From */
+    #about_row{background: no-repeat left ; }
+    #box_form{margin: 1% 2% 10% 10%;  padding: 4%;  }
+    #box-form{margin: -72% -214% 16% 146%; background-color: #f3f5f7; padding: 10% 7% 10% 7%; box-shadow: 3px 3px 17px 2px #000; border-radius: 2%; }
+    #form_text{color: #fff; font-weight: 400; font-family: helvetica; font-size:20px; margin: 0 0 1% 0;}
+    select, input[type='text'], input[type='number'] , textarea{ background-color: white; padding: 2%; border-radius:1%; width: 100%; border-radius: 8px;}
+    select:focus{ background-color: lightgray; padding: 2%; border-radius: 1%; width:100%;}
+    #submit{width:100%; }
+    
+    /* Home Elements rreth nesh txt */
+    #about-home-bg{margin: 7% 2% 0 5%; }
+    #about_home{
+        /* background-image: url("./photo/home_bg.png");  */
+        background-repeat:no-repeat; margin: 5% 0 0 0; }
+    #border{ border:1px solid #333; margin-left: 2%;}
+    
+    #info_x_ne {
+        margin: 46% 0 0 0;
+    background-color: #ffffffa3;
+    text-align: left;
+    font-size: 12px;
+    }
+    #values {
+        margin: 0 0 0 -0.5%;
+        text-align: center;
+    }
+    
+    /* Product Container */
+    #prod_header{background-color: #17a2b8; color: #fff; padding: 13px; text-transform: uppercase; font-family: sans-serif;font-weight: 600; font-size:18px;}
+    #product_container{ margin: 2.5% 0 4% 0}
+    #prod_item:hover{background-color: #eaeaea;}
+    #prod_item{ margin: 0 45px 0 21px; padding-right: 3%;    box-shadow: 0px 1px 12px 0px #80808052; }
+    
+    /* Footer Css */
+    #footer{background-color: #f4fdff;  padding: 4% 0 0 0; color: #0f6b79; box-shadow: 1px -1px 8px 0px #9494948c;}
+    .center{ text-align:center;}
+    #footer a{ color: #333; font-weight: 500; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    .search {  padding-top: 7%; background-size: cover;  margin-top: -8%; height: 400px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    /* Sherbimet Css */
+    #servisesbg{
+        background: -webkit-linear-gradient(top, #a3bdcc , #7ca2b7, #a3bdcc, #7ca2b7);   
+        padding: 6% 3%;
+        margin: 0 1% 1% 1%;
+        box-shadow: 3px 2px 7px #4c585a8c;
+    }
+    #servHeader { height: 300px;}
+    #servHeader h3{
+        font-size:20px; 
+        text-align: center; 
+        font-weight: 600 ; 
+        color: #fff;
+        padding: 0 10px 0 15% ;  
+    }
+    #servisesbg p{    margin-top: 11px;}
+    /* #imgServices {    margin-top:  ;} */
+    #prodServ{
+        margin-top:20px ;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+    
+    }
+    #cntHeader {    height: 300px;}
+    #cntHeader h3{  
+        font-size:15px; 
+        text-align: center; 
+        font-weight: 600 ; 
+        color: #fff;
+        padding: 0 8% 0 8% ;   }
+    
+    
+    #kutia1 h1{
+        display:none;
+    }
+    
+    #kutia1{
+        margin: 2% 0 0 0;
+    }
+    #kutia2{
+        margin: 8% 0 0 0;
+    }
+    
+    }

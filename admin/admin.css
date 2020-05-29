@@ -1,0 +1,72 @@
+*{margin: 0; padding:0;}
+.center-div{position: absolute; top:50%; left:50%; transform: translate(-50%, -50%)}
+.center{position: absolute; top:2%; }
+.top-right{    position: absolute; top:1%; left: 30%;}
+
+h2
+{
+    /* width:100%; */
+    padding: 30px;
+    text-align:center ;
+    line-height: 0.5;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-danger {
+    margin-top: 20px;
+    float: right;
+   ;
+}
+#admHeader{
+    background: -webkit-linear-gradient(left, #17a2b8, #17a2b8);
+
+}
+
+form{
+    width: 100%;
+}
+ul{
+    margin-top: 24px;
+}
+input[type=text], input[type=submit],  input[type=password],input[type=file],  #selectForm {
+    border-radius: 8px;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 22%;
+}
+textarea{
+    border-radius: 8px;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 88%;
+}
+#titProna{    width:70%!important;}
+input[type='file'] {    color: transparent;    cursor: pointer;     }
+input[type=text]:focus{    background-color: #eaeaea;}
+fieldset{    border: 0.5px solid #eaeaea;}
+table {   text-align: justify;    margin-top: 40px;}
+tr, th, td {
+    border-bottom: 1px solid #f2f2f2;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+th{    background-color: #f2f2f2 ;}
+#addpropform p{
+    
+    color:#0072ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.btn-info, .btn-danger{
+    width: 70%!important;
+    margin-bottom: 1px!important;
+    text-align: left!important;
+}
+.sidebar-menu{    background-color: #eaeaea36;    background-position: left;}
+.error_text{    color: red;    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.center-text{    text-align: center;}
+
+

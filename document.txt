@@ -1,0 +1,78 @@
+MODULE CODE
+************************************************************
+
+<!-- Login Modal -->
+                           <div class="modal " id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="./agent/agentlogin.php" method="POST">
+                                                <div class="form-group">
+                                                    <input type="number" name="nipt" id="nipt" placeholder="NIPT" /></div>
+                                                
+                                                <div class="form-group">
+                                                    <input type="password" name="passw" id="passw" placeholder="Fjalkalim" /></div>
+                                                <div class="form-group">
+                                                    
+                                                <div class="form-group">
+                                                    <input type="Submit" id="submit" name="login" value="Login" /></div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                                Ende i paregjistruar? <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#register"> Register </button>
+
+                                            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Register Modal -->
+                            <div class="modal " id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">REGISTER NOW</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="./agent/register.php" method="POST">
+                                                <div class="form-group" >
+                                                    <input style="width:44%" type="text" name="emri" id="emri" placeholder="Emri" required/>
+                                                    <input style="width:44%" type="text" name="mbiemri" id="mbiemri" placeholder="Mbiemri"required /></div>
+                                                <div class="form-group">
+                                                    <input type="email" name="email" id="email" placeholder="email" required/></div>
+                                                <div class="form-group">
+                                                    <input type="password" name="passw" id="passw" placeholder="Fjalekalim" required/></div>
+                                                <div class="form-group">
+                                                    <input style="width:44%" type="number" name="mosha" min="25" id="mosha" placeholder="Mosha" required/>
+                                                    <select style="width:44%" name="gjinia" >
+                                                        <option value="">--Gjinia--</option>
+                                                        <option value="F"> Femer</option>
+                                                        <option value="M"> Mashkull</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input style="width:44%" type="number" name="telefon" id="telefon" placeholder="Telefon" required/>
+                                                    <input style="width:44%" type="number" name="nipt" id="nipt" placeholder="NIPT" required /></div>
+                                                <div class="form-group">
+                                                    <input type="number" name="viteEksperience"min="1" id="viteEksperience" placeholder="Vite Eksperience" required /></div>
+                                                <div class="form-group">
+                                                    <input type="Submit" id="submit" name="register" value="Register" /></div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+************************************************************

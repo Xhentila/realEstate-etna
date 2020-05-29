@@ -1,0 +1,137 @@
+
+html, body{
+    margin:0 auto;
+    padding:0px;
+    z-index: 1;
+    width: 100%!important;
+    overflow-x:hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1efd6!important;
+    
+}
+
+ /* Navbar Css */
+ .my-nav{ position: relative; width: 100%; z-index:1; background:#fff; border:none; border-bottom-color: #3333332b; width: 100%;}
+ .nav-item{ border-radius: 10px; margin: 1px; }
+ .nav-item:hover{border-bottom: 1px solid #333;border-radius: 10px;  }
+ .nav-link{ color: #b5b5b5; font-weight: 600 ;font-family: Arial, Helvetica, sans-serif;font-size: 15px;}
+ .nav-link:hover{color: #000!important;font-weight: 600 ;font-family: Arial, Helvetica, sans-serif;font-size: 15px;}
+ .my-nav{background-color: rgba(0, 0, 0, 00); border-bottom-color: 0.75px solid rgba(0, 0, 0, 00); }
+ .my-nav .navbar-brand:hover,
+ .my-nav .navbar-brand:focus{color: aliceblue;}
+ .navbar-text{color: #ecf0f1;}
+ .my-nav.navbar-nav >li >a {color: #ECF0F1;}
+ .my-nav.navbar-nav >li >a:hover,
+ .my-nav.navbar-nav >li >a:focus {color: #ECF0F1;}
+ #navmenu{margin-left: 40%;}
+
+/* HR devider  */
+#deviderHr{ width:80%; margin-top: 5%; border: 1px dotted #035967;}
+/* Search Agent by city  */
+#searchHeader{
+    background-image: url("../photo/slider_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top:-8%;
+}
+
+#searchtext{
+ 
+    padding: 25% 5% 5% 5%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+/* Footer Css */
+ /* Footer Css */
+ #footer{background-image: url("../photo/daycity.jpg") ; background-size: cover; background-repeat: no-repeat;  padding: 4% 0 0 0; color: #0f6b79; box-shadow: 1px -1px 8px 0px #9494948c;}
+ .center{ text-align:center;}
+ #footer a{ color: #fff; font-weight: 500; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+ .search {  padding-top: 7%; background-size: cover;  margin-top: -8%; height: 400px;
+ }
+ a{
+     text-decoration: none;
+ }
+p{
+    padding-bottom: 2% ; 
+    font-weight: 400!important; 
+    font-size:14px; 
+    letter-spacing:0.5px;
+}
+
+ /*  */
+ #cntHeader {    height: 400px;}
+ #cntHeader h3{  
+     font-size:25px; 
+     text-align: center; 
+     font-weight: 800 ; 
+     color: #fff;
+     padding: 16% 30% 0 3% ;   }
+
+ /* Sherbimet Css */
+ #servisesbg{
+     background: -webkit-linear-gradient(top, #a3bdcc , #7ca2b7, #a3bdcc, #7ca2b7);  
+     padding: 6% 3%;
+     margin: 0 2% 1% 0;
+     box-shadow: 3px 2px 7px #4c585a8c;
+ }
+ #servisesbg p{    margin-top: 11px;} 
+ #imgServices {    margin-top: 5% ;}
+ #servHeader{    height:420px;}
+ #servHeader h3{
+     font-size:35px; font-weight: 600 ; color: #fff; padding-top: 20%
+     
+ }
+ #prodServ{
+     margin-top:20px ;
+     background-color: #f9f9f9;
+     padding: 10px;
+     border-bottom-left-radius: 5%;
+     border-top-left-radius: 5%;
+
+ }
+
+ /* Search Result form home search */
+
+ #prona {
+     margin-top: 2%;
+     padding: 2%;
+     /* box-shadow: 5px 6px 8px #f2f2f2; */
+ }
+
+
+ /* Contact.php */
+ #boxi{
+     width: 1300px ;
+     padding: 5% 0 5% 0;
+
+ }
+ #kutia2{
+     padding: 5% 0 0 1%;
+ }
+ #vila1 {
+     margin: 40px 40px 40px 5%!important;    }
+ 
+ .media-38289 {
+   color: #000; }
+ .media-38289 .sq, .media-38289 .bed, .media-38289 .bath {
+     font-size: 13px;
+     color: black;
+     font-weight: bold;
+ 
+ }
+ .media-38289 .sq .wrap-icon, .media-38289 .bed .wrap-icon, .media-38289 .bath .wrap-icon {
+       margin-right: 5px;
+       color: #91b029; }
+   .media-38289 .address {
+     color: black; }
+   .media-38289 .text {
+     padding: 30px;
+     background-color: gainsboro; }
+ 
+ 
+ #titulli {
+     padding-bottom: 10px;
+ }
